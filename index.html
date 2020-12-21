@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>קורונה - לוח בקרה</title>
+</head>
+<body dir="rtl">
+    <div class="line"></div>
+    <header>
+        <div>
+            <img id="menu_icon" src="./menu-icon.png" alt="">
+            <img id="logo_dashboard" src="./logo_DAshboard-01.png" alt="">
+        </div>
+        
+        <div>
+            <div id="covid_19_msg">
+                <p style="    font-size: 13px!important;    font-weight: 700;margin-bottom:4px">נגיף הקורונה בישראל - תמונת מצב כללית</p>
+                <p id="last_update">עדכון אחרון:18 בדצמבר 2020
+                    |
+                    14:42</p>
+            </div>
+            <button id="display_button">לתצוגה נגישה</button>
+        </div>
+    </header>
+<div class="container">
+    <div class="_2_boxes">
+        <div class="box">
+            <h6 class="box_tittle">מאומתים חדשים אתמול</h6>
+            <i id="i_icon" class="fa fa-info-circle" aria-hidden="true" ></i>
+            <h5 id="total_amount">2,814</h5>
+            <span id="total_amount_under" dir="ltr">+1,642</span>
+            <span id="total_amount_under_under">מחצות</span>
+            <br>
+            <span id="total_amount_under" dir="ltr">370,152</span>
+            <span id="total_amount_under_under">סה"כ</span>
+        </div>
+        <div class="box1">
+            <h6 class="box_tittle">חולים פעילים</h6>
+            <i style="margin-right: 110px; " id="i_icon" class="fa fa-info-circle" aria-hidden="true" ></i>
+            <h5 id="total_amount1">22,723</h5>
+            <span id="total_amount_under" dir="ltr">+412</span>
+            <span id="total_amount_under_under">מחצות</span>
+            <br>
+            <span id="span_item_label" dir="ltr">/בית <span><br></span>קהילה</span>
+            <br>
+            <span id="span_item_amount">21,517</span>
+            <span id="span_item_label1" dir="ltr">מלון</span>
+            <br>
+            <span id="span_item_amount1">489</span>
+            <span id="span_item_label2" dir="ltr">בי"ח</span>
+            <br>
+            <span id="span_item_amount2">717</span>
+            
+
+        </div>
+        <div class="">
+
+        </div>
+
+    </div>
+    <div class="_2_boxes1">
+        <div class="box_1">
+            <h6 class="box_tittle">חולים קשה</h6>
+            <i style="margin-right: 90px; " id="i_icon" class="fa fa-info-circle" aria-hidden="true" ></i>
+            <h5 id="total_amount1">429</h5>
+            <span id="total_amount_under" dir="ltr">+0</span>
+            <span id="total_amount_under_under">מחצות</span>
+            <br>
+            <span id="pink_circle"></span>
+            <span id="total_amount_under_under1">מתוכם קריטי</span>
+            <span id="span_item_amount3">196</span>
+
+            <span id="orange_circle"></span>
+            <span id="total_amount_under_under1_1">בינוני</span>
+            <span id="span_item_amount3_1">140</span>
+
+        </div>
+        <div class="box_1_1">
+            <h6 class="box_tittle">מונשמים</h6>
+            <i style="margin-right: 75px; " id="i_icon" class="fa fa-info-circle" aria-hidden="true" ></i>
+            <h5 class="total_amount_class" id="">105</h5>
+            <span class="total_amount_under_class" id="" dir="ltr">-2</span>
+            <span class="total_amount_under_under_class" id="">מחצות</span>
+            <span id="iconify" class="iconify" data-icon="eva-bar-chart-2-outline" data-inline="false"></span>
+            <span id="daily_change">מגמת שינוי יומית</span>
+           
+        </div>
+
+    </div>
+    <div style="background-color: #edf1f7;   
+    " class="_2_boxes1">
+       
+        <div class="box_1_1_2_1">
+            <h6 class="box_tittle">נפטרים מצטבר</h6>
+            <i style="margin-right: 115px; " id="i_icon" class="fa fa-info-circle" aria-hidden="true" ></i>
+            <h5 class="total_amount_class" id="">3,057</h5>
+        
+            <span id="iconify" class="iconify" data-icon="eva-bar-chart-2-outline" data-inline="false"></span>
+            <span id="daily_change">מגמת שינוי יומית</span>
+           
+        </div>
+        <div class="box_1_1_2">
+            <h6 class="box_tittle">אחוז בדיקות חיוביות אתמול</h6>
+            <i style="margin-right: 148px; " id="i_icon" class="fa fa-info-circle" aria-hidden="true" ></i>
+            <h5 class="total_amount_class" style="margin-top: -10px;" id="">3.6%</h5>
+            <span class="total_amount_under_class" id="" dir="ltr">80,411</span>
+            <span class="total_amount_under_under_class" id="">בדיקות אתמול</span>
+            <span id="iconify" class="iconify" data-icon="eva-bar-chart-2-outline" data-inline="false"></span>
+            <span id="daily_change">בדיקות יומיות</span>
+        </div>
+    </div>
+    <div style="background-color:#edf1f7 ;">
+        <p class="spread_tittle">מדדי התפשטות בהסתכלות <span><br></span> שבועית </p>
+    </div>
+    <div style="width: 100%;background-color:#edf1f7 ;">
+        <h6 id="spread_tittle_under">מגמת שינוי במאומתים חדשים וקצב הכפלה</h6>
+        <div style="  width: 384px;
+        background-color: white;
+        margin: 0 auto;">
+         <i id="i_icon1" class="fa fa-info-circle fa-7x" aria-hidden="true" ></i>
+         <p id="spread_tittle_under_under">% שינוי בממוצע מאומתים חדשים שבועי, ומספר הימים להכפלת הנדבקים (בסוגריים)</p>
+        </div>
+    </div>
+        
+    
+    <div style="width: 100%;background-color:#edf1f7 ;">
+        <div id="first_chart">
+            <canvas style="background-color:#ffffff ;" id="myChart"></canvas>
+        </div>
+    </div>
+
+    <div style="width: 100%;background-color:#edf1f7;">
+        <h6  id="spread_tittle_under1">מספר החולים קשה וקריטי</h6>
+        <div id="seconde_chart">
+            <canvas style="background-color:#ffffff ; padding-bottom: 20px;" id="myChart2"></canvas>
+        </div>
+    </div>
+
+  <!--  -->
+  <div style="width: 100%;background-color:#edf1f7 ;">
+    <h6 style="padding-top: 15px;" id="spread_tittle_under">מספר המאומתים החדשים <span>מחוץ</span> לאיזורי ההתפשטות</h6>
+    <div style="  width: 384px;
+    background-color: white;
+    margin: 0 auto;">
+     <i id="i_icon1" class="fa fa-info-circle fa-7x" aria-hidden="true" ></i>
+     <p id="spread_tittle_under_under"> הנתונים אינם כוללים מאומתים מישובים אדומים, מוסדות גריאטריים וחוזרים מחו"ל</p>
+    </div>
+
+    <div id="third_chart">
+        <canvas style="background-color:#ffffff;padding-bottom: 15px ; border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;" id="myChart3"></canvas>
+    </div>
+
+</div>
+  <!--  -->
+    
+    <div id="chat4_container" style="background-color: #edf1f7;width: 100%;">
+        <div style="background-color:#edf1f7 ;margin-right:18px ">
+            <p class="apidemic_tittle">עקומה אפידמית</p>
+<select name="cars" id="apidemic_time_select">
+  <option value="now">עד עכשיו</option>
+  <option value="last_week">שבוע אחרון</option>
+  <option value="last_couple_weeks">שבועיים אחרונים</option>
+  <option value="last_month">חודש אחרון</option>
+</select>
+<div style="  width: 384px;
+    background-color: white;
+    ">
+    <!-- <i class="fa fa-lightbulb-o" style="font-size:24px"></i> -->
+     <i id="i_icon2" class="fa fa-lightbulb-o" aria-hidden="true" ></i>
+     <p id="spread_tittle_under_under">מספר הנדבקים היום הינו <span>כפול</span> ממספר הנדבקים לפני <span>92</span> ימים</p>
+    <!-- <p id="green_circle"></p>
+    <p id="new_sick">מאומתים חדשים</p> -->
+    <!-- <p id="green_circle"></p>
+    <p style="display: inline-block;" >מחלימים חדשים</p>
+    <p id="green_circle"></p>
+    <p style="display: inline-block;">מאומתים מצטברים</p> -->
+    </div>
+        </div>
+    </div>
+    <div style="width: 100%;background-color:#edf1f7;">
+        <!-- <h6  id="spread_tittle_under1">מספר החולים קשה וקריטי</h6> -->
+        <div style="  width: 384px;
+        background-color: white;
+        margin: 0 auto;border-bottom-left-radius: 16px;border-bottom-right-radius: 16px;">
+            <canvas  id="myChart4"></canvas>
+        </div>
+    </div>
+    <!--  -->
+      
+    <div id="chat4_container" style="background-color: #edf1f7;width: 100%;">
+        <div style="background-color:#edf1f7 ;margin-right:18px ">
+            <p class="apidemic_tittle">חולים קשה ומונשמים </p>
+<select name="cars" id="apidemic_time_select">
+  <option value="now">עד עכשיו</option>
+  <option value="last_week">שבוע אחרון</option>
+  <option value="last_couple_weeks">שבועיים אחרונים</option>
+  <option value="last_month">חודש אחרון</option>
+</select>
+<div style="  width: 384px;
+    background-color: white;
+    ">
+
+     <i id="i_icon2" class="fa fa-lightbulb-o" aria-hidden="true" ></i>
+     <p id="spread_tittle_under_under">סה"כ <strong> מספר</strong> חולים קשה ו <strong> מספר</strong> מונשמים <strong> מאז תאריך</strong></p>
+   
+    </div>
+        </div>
+    </div>
+    <div style="width: 100%;background-color:#edf1f7;">
+        <!-- <h6  id="spread_tittle_under1">מספר החולים קשה וקריטי</h6> -->
+        <div style="  width: 384px;background-color: white;margin: 0 auto;border-bottom-left-radius: 16px;border-bottom-right-radius: 16px;">
+            <canvas  id="myChart5"></canvas>
+        </div>
+    </div>
+  <!--  -->
+
+  <!-- תוכנית רמזור -->
+  <div style="background-color:#edf1f7;width: 100%;padding-top: 20px;">
+    <div id="traffic_light">
+        <p id="traffic_lite_tittle">תוכנית הרמזור</p>
+        <p id="traffic_lite_tittle_small"> * מרכיבי ציון הרמזור (לפי נתוני השבוע האחרון) </p>
+        <div id="container_traffic_msg">
+            <i id="remark-icon" class="fa fa-info-circle" aria-hidden="true" ></i>
+            <p id="traffic_lite_tittle_small2">הנתונים נכונים לתאריך 20/12/2020</p>
+        </div>
+        <div id="container_traffic_input">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input class="town_search" type="text" placeholder="חיפוש ישוב">
+        </div>
+        <div id="red_square"></div>
+        <p id="red_square_info1">אדום - פעילות מינימלית</p>
+        <p id="red_square_info2">ציון 7.5 ומעלה</p>
+        <div id="orange_square"></div>
+        <p id="orange_square_info1">כתום - פעילות מצומצמת</p>
+        <p id="orange_square_info2">ציון בין 6 ל - 7.5</p>
+        <div id="yellow_square"></div>
+        <p id="yellow_square_info1">צהוב - פעילות מוגבלת</p>
+        <p id="yellow_square_info2">ציון בין 4.5 ל - 6</p>
+        <div id="green_square"></div>
+        <p id="green_square_info1">ירוק - פעילות מורחבת</p>
+        <p id="green_square_info2">ציון עד 4.5</p>
+       
+  </div>
+
+
+</div>
+  <!--  -->
+    <div style="background-color: rgb(118, 255, 255);" class="_2_boxes1">
+        <div class="">
+      
+        </div>
+        <div class="">
+
+        </div>
+
+    </div>
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
